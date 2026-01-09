@@ -3,8 +3,9 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'just example'
+                sh 'echo "just example"'
             }
         }
     }
 }
+
